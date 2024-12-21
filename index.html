@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" class="favicon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="myCustom.css">
+
+    <title>Car Website - Chaudhry</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <i class="ri-steering-fill"></i>
+                Mk-autosale
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Cars Details</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main" id="home">
+        <!--==================== HOME ====================-->
+        <section class="hero">
+            <video class="hero-video" autoplay muted loop>
+                <source src="car.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h2>Better Cars, Better Price!</h2>
+                <p>Find your dream car at the best price today. Browse our collection and drive home happiness!</p>
+                <a href="#popular">Explore Cars</a>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="amk.jpg" alt="About Image" class="about__img">
+                </div>
+                <div class="about__data">
+                    <h2 class="section__title about__title">About Me</h2>
+                    <h3 style="margin-bottom: 5px;">Mueed Khan</h3>
+                    <a href="tel:+13367816482" class="footer__links">336-781-6482</a><br>
+                    <a href="mailto:mueedkhan0507@gmail.com" class="footer__links">mueedkhan0507@gmail.com</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="popular">
+            <h1 class="section__title">Popular Cars</h1>
+            <div class="gallery-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <a href="Lexus.html">
+                        <img src="2009 Lexus IS250.jpg" alt="Ferrari F420 edition">
+                    </a>
+                    <div class="card__content">
+                        <h2>Lexus IS250</h2>
+                        <p>2009 • 204 HP • 100,000 Miles </p>
+                        <span>Color • Black </span>
+                        <p class="card__price"><strong>Rebuilt Title
+                            </strong></p>
+                        <a href="Lexus.html" class="button">Details</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <a href="Honda Civic.html">
+                        <img src="Civic1.jpg" alt="Mercedes-Benz CLS400d">
+                    </a>
+                    <div class="card__content">
+                        <h2>Honda Civic LX </h2>
+                        <p>2011 • 140 HP •Mileage• 56,000</p>
+                        <span>Color • Tango Red</span>
+                        <p class="card__price"><strong>Rebuilt Title </strong></p>
+                        <a href="Honda Civic.html" class="button">Details</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <a href="Honda Accord.html">
+                        <img src="Honda.jpg" alt="Audi A6 3.0 V6 TDI">
+                    </a>
+                    <div class="card__content">
+                        <h2>Honda Accord EX-L</h2>
+                        <p>2015 • 185 HP • Mileage • 88,000</p>
+                        <span>HEMATITE METALLIC•</span></span>
+                        <p class="card__price"><strong>Rebuilt Title</strong></p>
+                        <a href="Honda Accord.html" class="button">Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#home" class="footer__logo">
+                    <i class="ri-steering-line"></i>
+                    Mk-autosale
+                </a>
+                <h3 class="footer__description">Better Cars <br>Better Price!</h3>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Company</h3>
+                <ul class="footer__links">
+                    <li><a href="#about" class="footer__links">About</a></li>
+                    <li><a href="#popular" class="footer__links">Cars</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul class="footer__links">
+                    <li><a href="tel:+13367816482">336-781-6482</a></li>
+                    <li><a href="mailto:mueed0018@gmail.com">mueed0018@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Follow Us</h3>
+                <ul class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="ri-facebook-fill"></i></a>
+                    <a href="#" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+                    <a href="#" class="footer__social-link"><i class="ri-twitter-line"></i></a>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__copy">&#169; 2024 <a href="https://chrohail.org/" target="_blank">Chaudhry Rashid</a>. All
+            rights reserved.</span>
+    </footer>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+
+</html>

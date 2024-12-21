@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+
+<!--==================== POPULAR ====================-->
+<section class="popular section" id="popular">
+    <h1 class="section__title">Popular Cars</h1>
+    <div class="gallery-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <a href="details.html">
+                <img src="1.jpg" alt="Ferrari F420 edition">
+            </a>
+            <div class="card__content">
+                <h2>Ferrari F420 edition</h2>
+                <p>2013 • 499 HP • 56,000 km • 4.3</p>
+                <span>red rosso corsa • Roadster</span>
+                <p class="card__price"><strong>599,000 PLN</strong> gross</p>
+                <a href="details.html" class="button">Go to offer</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <a href="details.html">
+                <img src="2.jpg" alt="Mercedes-Benz CLS400d">
+            </a>
+            <div class="card__content">
+                <h2>Mercedes-Benz CLS400d</h2>
+                <p>2019 • 340 HP • 15,000 km • 3.0</p>
+                <span>Metallic gray • Coupé</span>
+                <p class="card__price"><strong>324,000 PLN</strong> gross</p>
+                <a href="details.html" class="button">Go to offer</a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <a href="details.html">
+                <img src="3.jpg" alt="Audi A6 3.0 V6 TDI">
+            </a>
+            <div class="card__content">
+                <h2>Audi A6 3.0 V6 TDI 340KM QUATTRO S-LINE</h2>
+                <p>2021 • 340 HP • 39,000 km • 3.0</p>
+                <span>Black metallic • Limousine</span>
+                <p class="card__price"><strong>249,900 PLN</strong> gross</p>
+                <a href="details.html" class="button">Go to offer</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<style>
+
+
+    /* Popular Section Styling */
+.section__title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+    padding: 0;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card__content {
+    padding: 15px;
+}
+
+.card__content h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card__content p, .card__content span {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card__price {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #000;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Offer Section Styling */
+.offer__container {
+    position: relative;
+    text-align: center;
+}
+
+.offer__bg {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.offer__data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.offer__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.offer__description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+</style>
+
+ <!--==================== FOOTER ====================-->
+ <footer class="footer section">
+    <div class="shapeX shape__big"></div>
+    <div class="shapeX shape__small"></div>
+
+    <div class="footer__container container grid">
+        <div class="footer__content">
+            <a href="index.html" class="footer__logo">
+                <i class="ri-steering-line"></i>
+                Mk-autoslae
+
+            </a>
+            <h3 class="footer__description">
+               Better Cars <br>
+               Better Price!
+            </h3>
+        </div>
+
+
+        <div class="footer__content">
+
+            <h3 class="footer__title">Company </h3>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#" class="footer__links">About</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links">Cars</a>
+                </li>
+                
+                <li>
+                    <a href="#" class="footer__links">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Information </h3>
+            <ul class="footer__links">
+               
+                <li>
+                    <a href="tel:+13367816482" class="footer__links">336-781-6482</a>
+                </li>
+                <li>
+                    <a href="mailto:mueedkhan0507@gmail.com" class="footer__links">mueedkhan0507@gmail.com</a>
+                </li>
+                
+
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title"> Follow us </h3>
+
+            <ul class="footer__social">
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/mk_autosale?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="ri-twitter-line"></i>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <span class="footer__copy">
+        &#169; <a target="_blank" href="https://chrohail.org/" class="footer__dev-link">Chaudhry Rashid</a> All rigths 
+        reserved 
+        <p id="date">2024</p>
+    </span>
+</footer>
+
+
+<!--========== SCROLL UP ==========-->
+
+<a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-line"></i>
+</a>
+
+
+<!--=============== SCROLL REVEAL - PAGE ANNIMATION ===============-->
+<script src="scrollrevealAnimation.min.js"></script>
+
+<!--=============== SWIPER JS - PRODUCT SLIDER ===============-->
+<script src="swiper-bundle.min.js"></script>
+
+<!--=============== MIXITUP JS - FILTER PRODUCT ===============-->
+<script src="mixitup.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="main.js"></script>
+
+<script>const cards = document.querySelectorAll('.card');
+    const dots = document.querySelectorAll('.dot');
+    
+    let currentIndex = 0;
+    
+    function updateActiveDot(index) {
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+    }
+    
+    cards.forEach((card, index) => {
+        card.addEventListener('click', () => {
+            currentIndex = index;
+            updateActiveDot(currentIndex);
+        });
+    });
+    
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            cards[index].scrollIntoView({ behavior: 'smooth' });
+            updateActiveDot(index);
+        });
+    });
+    </script>
